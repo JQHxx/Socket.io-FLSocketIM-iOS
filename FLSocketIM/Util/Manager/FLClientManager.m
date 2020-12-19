@@ -11,6 +11,7 @@
 #import "FLChatViewController.h"
 #import "FLMessageModel.h"
 #import "FLVideoChatViewController.h"
+
 static FLClientManager *instance;
 
 @interface FLClientManager ()
@@ -97,11 +98,10 @@ static FLClientManager *instance;
     // 收到消息
     [socket on:@"chat" callback:^(NSArray * _Nonnull data, SocketAckEmitter * _Nonnull ack) {
         
-
-        if (ack.expected == YES) {
-            
-            [ack with:@[@"hello 我是应答"]];
-        }
+//        if (ack.expected == YES) {
+//
+//            [ack with:@[@"hello 我是应答"]];
+//        }
 
         
         FLMessageModel *message = [FLMessageModel yy_modelWithJSON:data.firstObject];

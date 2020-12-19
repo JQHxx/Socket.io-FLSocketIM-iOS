@@ -330,6 +330,7 @@ WebRTC，名称源自网页实时通信（Web Real-Time Communication）的缩�
 - 首先我们需要去百度[网盘下载](https://pan.baidu.com/s/1kU4IPp1) WebRTC头文件和静态库.a。下载完成，解压缩，拖入项目中；
 - 切换连接的地址为服务器的IP地址(RequestUrlConst.h中的baseUrl)
 - 想要测试视频通话功能需要两台真机，且同时在线，处于同一局域网内
+- https://blog.csdn.net/ZuoWeiXiaoDuZuoZuo/article/details/82756116
 
 ##### 2.服务器部分
 - 首先需要node.js环境

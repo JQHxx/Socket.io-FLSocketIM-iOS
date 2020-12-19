@@ -112,7 +112,6 @@
 		125A8A211F55641D00941102 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125A8A201F55641D00941102 /* AVFoundation.framework */; };
 		125A8A231F55642C00941102 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125A8A221F55642C00941102 /* AudioToolbox.framework */; };
 		125A8A251F55646B00941102 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 125A8A241F55646B00941102 /* libicucore.tbd */; };
-		125A8A271F55650D00941102 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 125A8A261F55650D00941102 /* libstdc++.6.tbd */; };
 		125A8A291F55652100941102 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 125A8A281F55652100941102 /* libc++.tbd */; };
 		125A8A2B1F55653200941102 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 125A8A2A1F55653200941102 /* libresolv.tbd */; };
 		125A8A2D1F55653E00941102 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 125A8A2C1F55653E00941102 /* GLKit.framework */; };
@@ -133,7 +132,6 @@
 		129E31F31F1DA0CC00ECB93C /* NSDate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 129E31F11F1DA0CC00ECB93C /* NSDate+Helper.m */; };
 		129E31F41F1DA0CC00ECB93C /* README.textile in Resources */ = {isa = PBXBuildFile; fileRef = 129E31F21F1DA0CC00ECB93C /* README.textile */; };
 		129E323B1F1E09EA00ECB93C /* FLFriendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 129E323A1F1E09EA00ECB93C /* FLFriendModel.m */; };
-		12AB7E831F611C9700B4293D /* libWebRTC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12AB7E821F611C9700B4293D /* libWebRTC.a */; };
 		12B9D95F1F0F1B4200B7F749 /* UIColor+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B9D95E1F0F1B4200B7F749 /* UIColor+Common.m */; };
 		12B9D9641F0F264000B7F749 /* FLMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B9D9631F0F264000B7F749 /* FLMessageCell.m */; };
 		12B9D9691F0F26A400B7F749 /* FLMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B9D9681F0F26A400B7F749 /* FLMessageModel.m */; };
@@ -354,7 +352,6 @@
 		125A8A201F55641D00941102 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		125A8A221F55642C00941102 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		125A8A241F55646B00941102 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
-		125A8A261F55650D00941102 /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
 		125A8A281F55652100941102 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		125A8A2A1F55653200941102 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		125A8A2C1F55653E00941102 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
@@ -384,37 +381,6 @@
 		129E31F21F1DA0CC00ECB93C /* README.textile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.textile; sourceTree = "<group>"; };
 		129E32391F1E09EA00ECB93C /* FLFriendModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLFriendModel.h; sourceTree = "<group>"; };
 		129E323A1F1E09EA00ECB93C /* FLFriendModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLFriendModel.m; sourceTree = "<group>"; };
-		12AB7E641F611C9700B4293D /* RTCAudioSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCAudioSource.h; sourceTree = "<group>"; };
-		12AB7E651F611C9700B4293D /* RTCAudioTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCAudioTrack.h; sourceTree = "<group>"; };
-		12AB7E661F611C9700B4293D /* RTCAVFoundationVideoSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCAVFoundationVideoSource.h; sourceTree = "<group>"; };
-		12AB7E671F611C9700B4293D /* RTCDataChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCDataChannel.h; sourceTree = "<group>"; };
-		12AB7E681F611C9700B4293D /* RTCEAGLVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCEAGLVideoView.h; sourceTree = "<group>"; };
-		12AB7E691F611C9700B4293D /* RTCFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCFileLogger.h; sourceTree = "<group>"; };
-		12AB7E6A1F611C9700B4293D /* RTCI420Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCI420Frame.h; sourceTree = "<group>"; };
-		12AB7E6B1F611C9700B4293D /* RTCICECandidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCICECandidate.h; sourceTree = "<group>"; };
-		12AB7E6C1F611C9700B4293D /* RTCICEServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCICEServer.h; sourceTree = "<group>"; };
-		12AB7E6D1F611C9700B4293D /* RTCLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCLogging.h; sourceTree = "<group>"; };
-		12AB7E6E1F611C9700B4293D /* RTCMediaConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCMediaConstraints.h; sourceTree = "<group>"; };
-		12AB7E6F1F611C9700B4293D /* RTCMediaSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCMediaSource.h; sourceTree = "<group>"; };
-		12AB7E701F611C9700B4293D /* RTCMediaStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCMediaStream.h; sourceTree = "<group>"; };
-		12AB7E711F611C9700B4293D /* RTCMediaStreamTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCMediaStreamTrack.h; sourceTree = "<group>"; };
-		12AB7E721F611C9700B4293D /* RTCNSGLVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCNSGLVideoView.h; sourceTree = "<group>"; };
-		12AB7E731F611C9700B4293D /* RTCOpenGLVideoRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCOpenGLVideoRenderer.h; sourceTree = "<group>"; };
-		12AB7E741F611C9700B4293D /* RTCPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCPair.h; sourceTree = "<group>"; };
-		12AB7E751F611C9700B4293D /* RTCPeerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCPeerConnection.h; sourceTree = "<group>"; };
-		12AB7E761F611C9700B4293D /* RTCPeerConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCPeerConnectionDelegate.h; sourceTree = "<group>"; };
-		12AB7E771F611C9700B4293D /* RTCPeerConnectionFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCPeerConnectionFactory.h; sourceTree = "<group>"; };
-		12AB7E781F611C9700B4293D /* RTCPeerConnectionInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCPeerConnectionInterface.h; sourceTree = "<group>"; };
-		12AB7E791F611C9700B4293D /* RTCSessionDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCSessionDescription.h; sourceTree = "<group>"; };
-		12AB7E7A1F611C9700B4293D /* RTCSessionDescriptionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCSessionDescriptionDelegate.h; sourceTree = "<group>"; };
-		12AB7E7B1F611C9700B4293D /* RTCStatsDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCStatsDelegate.h; sourceTree = "<group>"; };
-		12AB7E7C1F611C9700B4293D /* RTCStatsReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCStatsReport.h; sourceTree = "<group>"; };
-		12AB7E7D1F611C9700B4293D /* RTCTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCTypes.h; sourceTree = "<group>"; };
-		12AB7E7E1F611C9700B4293D /* RTCVideoCapturer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCVideoCapturer.h; sourceTree = "<group>"; };
-		12AB7E7F1F611C9700B4293D /* RTCVideoRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCVideoRenderer.h; sourceTree = "<group>"; };
-		12AB7E801F611C9700B4293D /* RTCVideoSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCVideoSource.h; sourceTree = "<group>"; };
-		12AB7E811F611C9700B4293D /* RTCVideoTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTCVideoTrack.h; sourceTree = "<group>"; };
-		12AB7E821F611C9700B4293D /* libWebRTC.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWebRTC.a; sourceTree = "<group>"; };
 		12B9D95C1F0F194500B7F749 /* ColorConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorConst.h; sourceTree = "<group>"; };
 		12B9D95D1F0F1B4200B7F749 /* UIColor+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Common.h"; sourceTree = "<group>"; };
 		12B9D95E1F0F1B4200B7F749 /* UIColor+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Common.m"; sourceTree = "<group>"; };
@@ -546,15 +512,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				125A8A291F55652100941102 /* libc++.tbd in Frameworks */,
 				125A8A331F55656500941102 /* CoreTelephony.framework in Frameworks */,
 				125A8A311F55655200941102 /* VideoToolbox.framework in Frameworks */,
 				125A8A2F1F55654500941102 /* OpenGLES.framework in Frameworks */,
 				125A8A2D1F55653E00941102 /* GLKit.framework in Frameworks */,
 				125A8A2B1F55653200941102 /* libresolv.tbd in Frameworks */,
-				125A8A291F55652100941102 /* libc++.tbd in Frameworks */,
-				125A8A271F55650D00941102 /* libstdc++.6.tbd in Frameworks */,
 				125A8A251F55646B00941102 /* libicucore.tbd in Frameworks */,
-				12AB7E831F611C9700B4293D /* libWebRTC.a in Frameworks */,
 				125A8A231F55642C00941102 /* AudioToolbox.framework in Frameworks */,
 				125A8A211F55641D00941102 /* AVFoundation.framework in Frameworks */,
 				125A8A1F1F55641200941102 /* CoreMedia.framework in Frameworks */,
@@ -979,52 +943,6 @@
 			path = FriendsAndGroups;
 			sourceTree = "<group>";
 		};
-		12AB7E621F611C6500B4293D /* WebRTC */ = {
-			isa = PBXGroup;
-			children = (
-				12AB7E631F611C9700B4293D /* include */,
-				12AB7E821F611C9700B4293D /* libWebRTC.a */,
-			);
-			path = WebRTC;
-			sourceTree = "<group>";
-		};
-		12AB7E631F611C9700B4293D /* include */ = {
-			isa = PBXGroup;
-			children = (
-				12AB7E641F611C9700B4293D /* RTCAudioSource.h */,
-				12AB7E651F611C9700B4293D /* RTCAudioTrack.h */,
-				12AB7E661F611C9700B4293D /* RTCAVFoundationVideoSource.h */,
-				12AB7E671F611C9700B4293D /* RTCDataChannel.h */,
-				12AB7E681F611C9700B4293D /* RTCEAGLVideoView.h */,
-				12AB7E691F611C9700B4293D /* RTCFileLogger.h */,
-				12AB7E6A1F611C9700B4293D /* RTCI420Frame.h */,
-				12AB7E6B1F611C9700B4293D /* RTCICECandidate.h */,
-				12AB7E6C1F611C9700B4293D /* RTCICEServer.h */,
-				12AB7E6D1F611C9700B4293D /* RTCLogging.h */,
-				12AB7E6E1F611C9700B4293D /* RTCMediaConstraints.h */,
-				12AB7E6F1F611C9700B4293D /* RTCMediaSource.h */,
-				12AB7E701F611C9700B4293D /* RTCMediaStream.h */,
-				12AB7E711F611C9700B4293D /* RTCMediaStreamTrack.h */,
-				12AB7E721F611C9700B4293D /* RTCNSGLVideoView.h */,
-				12AB7E731F611C9700B4293D /* RTCOpenGLVideoRenderer.h */,
-				12AB7E741F611C9700B4293D /* RTCPair.h */,
-				12AB7E751F611C9700B4293D /* RTCPeerConnection.h */,
-				12AB7E761F611C9700B4293D /* RTCPeerConnectionDelegate.h */,
-				12AB7E771F611C9700B4293D /* RTCPeerConnectionFactory.h */,
-				12AB7E781F611C9700B4293D /* RTCPeerConnectionInterface.h */,
-				12AB7E791F611C9700B4293D /* RTCSessionDescription.h */,
-				12AB7E7A1F611C9700B4293D /* RTCSessionDescriptionDelegate.h */,
-				12AB7E7B1F611C9700B4293D /* RTCStatsDelegate.h */,
-				12AB7E7C1F611C9700B4293D /* RTCStatsReport.h */,
-				12AB7E7D1F611C9700B4293D /* RTCTypes.h */,
-				12AB7E7E1F611C9700B4293D /* RTCVideoCapturer.h */,
-				12AB7E7F1F611C9700B4293D /* RTCVideoRenderer.h */,
-				12AB7E801F611C9700B4293D /* RTCVideoSource.h */,
-				12AB7E811F611C9700B4293D /* RTCVideoTrack.h */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
 		12B9D9601F0F25AA00B7F749 /* ChatRoom */ = {
 			isa = PBXGroup;
 			children = (
@@ -1223,7 +1141,6 @@
 		12D86CDF1F17632B0069617B /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				12AB7E621F611C6500B4293D /* WebRTC */,
 				12D4623E1F28A77600507256 /* SMPageControl */,
 				12D462301F28A59000507256 /* AGEmojiKeyboard */,
 				129E31EF1F1DA0CC00ECB93C /* NSDate+Helper */,
@@ -1291,7 +1208,6 @@
 				125A8A2C1F55653E00941102 /* GLKit.framework */,
 				125A8A2A1F55653200941102 /* libresolv.tbd */,
 				125A8A281F55652100941102 /* libc++.tbd */,
-				125A8A261F55650D00941102 /* libstdc++.6.tbd */,
 				125A8A241F55646B00941102 /* libicucore.tbd */,
 				125A8A221F55642C00941102 /* AudioToolbox.framework */,
 				125A8A201F55641D00941102 /* AVFoundation.framework */,
@@ -1391,7 +1307,7 @@
 				TargetAttributes = {
 					123A9FDD1F0E150700DCC9E9 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 6625VD7T97;
+						DevelopmentTeam = 76RA22T2W7;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -1420,8 +1336,10 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 123A9FD51F0E150700DCC9E9;
 			productRefGroup = 123A9FDF1F0E150700DCC9E9 /* Products */;
@@ -1574,7 +1492,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-FLSocketIM/Pods-FLSocketIM-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-FLSocketIM/Pods-FLSocketIM-resources.sh",
 				"${PODS_ROOT}/AMap2DMap/MAMapKit.framework/AMap.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -1583,7 +1501,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLSocketIM/Pods-FLSocketIM-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FLSocketIM/Pods-FLSocketIM-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6AF58A04D3564352F5D2D52F /* [CP] Check Pods Manifest.lock */ = {
@@ -1646,7 +1564,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-FLSocketIM/Pods-FLSocketIM-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-FLSocketIM/Pods-FLSocketIM-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 				"${BUILT_PRODUCTS_DIR}/GPUImage/GPUImage.framework",
@@ -1655,7 +1573,7 @@
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
-				"${BUILT_PRODUCTS_DIR}/StarscreamSocketIO/StarscreamSocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
 				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -1668,12 +1586,12 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StarscreamSocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLSocketIM/Pods-FLSocketIM-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FLSocketIM/Pods-FLSocketIM-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1916,7 +1834,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6625VD7T97;
+				DEVELOPMENT_TEAM = 76RA22T2W7;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1927,7 +1845,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = FLSocketIM/FLSocketIM_Prefix.pch;
 				INFOPLIST_FILE = FLSocketIM/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1958,7 +1876,7 @@
 					"-weak_framework",
 					RevealServer,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.foxPower.SocketIM;
+				PRODUCT_BUNDLE_IDENTIFIER = com.foxPower.SocketIM100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1976,7 +1894,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6625VD7T97;
+				DEVELOPMENT_TEAM = 76RA22T2W7;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1985,7 +1903,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = FLSocketIM/FLSocketIM_Prefix.pch;
 				INFOPLIST_FILE = FLSocketIM/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2016,7 +1934,7 @@
 					"-weak_framework",
 					RevealServer,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.foxPower.SocketIM;
+				PRODUCT_BUNDLE_IDENTIFIER = com.foxPower.SocketIM100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";

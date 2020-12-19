@@ -1,8 +1,8 @@
-platform :ios, '8.0'
+platform :ios, '9.0'
 use_frameworks!
 
 target 'FLSocketIM' do
-  pod 'Socket.IO-Client-Swift', '~> 11.0.0'
+  pod 'Socket.IO-Client-Swift', '~> 12.1.3'
   pod 'Masonry', '~> 1.0.1'
   pod 'AFNetworking'
   pod 'FMDB'
@@ -15,6 +15,7 @@ target 'FLSocketIM' do
   pod 'AMap2DMap'
   pod 'AMapSearch'
   # pod 'YYKit'
+  
   target 'FLSocketIMTests' do
     inherit! :search_paths
     # Pods for testing
